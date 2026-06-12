@@ -1,2 +1,77 @@
 # link_e_3.2
-link_for_e
+<!DOCTYPE html>
+<html lang="uk">
+    <!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корисні посилання</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #fcfcfc;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: 400;
+            margin-bottom: 50px;
+            color: #555;
+            letter-spacing: 0.5px;
+        }
+
+        .links-container {
+            display: flex;
+            flex-direction: column;
+            gap: 25px; /* Великий відступ між посиланнями для "чистоти" дизайну */
+            width: 100%;
+            max-width: 600px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #1a1a1a;
+            font-size: 18px;
+            padding: 20px 30px;
+            background-color: #ffffff;
+            border: 1px solid #eaeaea;
+            border-radius: 8px;
+            text-align: center;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.02);
+        }
+
+        a:hover {
+            border-color: #d1d1d1;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Перейди за посиланнями</h1>
+
+    <div class="links-container">
+        <a href="https://www.youtube.com/watch?v=YKDurXqQr5Y" target="_blank">
+            «‎Козачок» – Народний ансамбль танцю «‎Горлиця»
+        </a>
+        <a href="https://www.youtube.com/watch?v=PdpG-Pl4xEQ" target="_blank">
+            Й. Штраус Вальс "Весняні голоси" / «Frühlingsstimmen»
+        </a>
+        <a href="https://www.youtube.com/watch?v=x--w43_ltEc" target="_blank">
+            Анастасія Шевченко "Лебідь" К.Сен-Санс
+        </a>
+    </div>
+
+</body>
+</html>
